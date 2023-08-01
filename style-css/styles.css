@@ -1,0 +1,190 @@
+@font-face {
+    font-family: font1;
+    src: url(myfont.ttf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(myfont2.ttf);
+}
+
+@font-face {
+    font-family:myfont3;
+    src: url(myfont3.ttf);
+}
+
+body{
+    margin: 0%;
+    text-align: center;
+    color: #212A3E;
+}
+
+.top-cont{
+    background-color: #91C8E4;
+}
+
+.top-cloud{
+    position: relative;
+    padding-top: 100px;
+    left: 290px;
+    top: 10px;
+    
+}
+
+.bottom-cloud{
+position: absolute;
+bottom: 200px;
+left: 150px;
+
+}
+
+h1{
+    font-size: 437.5%;
+    margin-top: 0%;
+    font-family: font1;
+    color: #F6F4EB;
+}
+
+h5{
+    font-size: 2rem;
+    padding: 30px;
+    font-family: myfont3;
+    color: #212A3E;
+    font-weight: normal;
+}
+
+.iam{
+    font-family: myfont2;
+}
+
+hr{
+    border: 1px solid;
+}
+
+.skills{
+    width: 50%;
+    margin: auto auto 70px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.heading_skills{
+    font-size: 50px;
+}
+
+.comp{
+    width:39%;
+    float: left;
+    padding-right: 30px;
+}
+
+.hello-section{
+    width: 50%;
+    margin: auto auto 70px auto;
+    text-align:left ;
+}
+
+.khaled{
+    float: left;
+    width: 39%;
+}
+
+.text-hello-sec{
+    padding-top: 40px; 
+    line-height: 2;
+}
+
+.coffe_gif{
+    float: right;
+    width: 30%;
+}
+
+.bottom-hr{
+border-top:1px dotted ;
+border-bottom: 0;
+width: 180px;
+border-width: 10px;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    color: #f7f7f7;
+    background: #275efe;
+    font-family: "Euclid Circular A", "Poppins";
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .button i {
+    font-size: 18px;
+  }
+  
+  .button-text,
+  .button-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+  }
+  
+  .button-text {
+    gap: 10px;
+    justify-content: center;
+    color: inherit;
+    font-size: 16px;
+  }
+  
+  .button-links {
+    opacity: 0;
+    justify-content: space-between;
+    padding: 0 28px;
+    transition: 0.2s;
+  }
+  
+  .button-links a {
+    translate: 0 50px;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    border-radius: 6px;
+  }
+  
+  .button:hover .button-links a:nth-child(1) {
+    transition-delay: 0.05s;
+  }
+  
+  .button:hover .button-links a:nth-child(2) {
+    transition-delay: 0.1s;
+  }
+  
+  .button:hover .button-links a:nth-child(3) {
+    transition-delay: 0.15s;
+  }
+  
+  .button:hover .button-text {
+    translate: 0 -100%;
+  }
+  
+  .button:hover .button-links {
+    opacity: 1;
+  }
+  
+  .button:hover .button-links a {
+    translate: 0;
+  }
+  
+  .button-links i {
+    color: #f7f7f7;
+  }
+
+/* خصص الموقع متل الفيديو 60  */
